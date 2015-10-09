@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 K Decors
+  p.lead All your furniture shopping done under one site!
+  hr
+  include partials/header
+
+  .item.bottom.ui-draggable.ui-draggable-disabled.ui-state-disabled(aria-disabled='true')
+    .FriendsToFollow.Module(data-component-type='24')
+        h2.memoTitle
+          | Filters     
+  #friendsToFollow.item.bottom.ui-draggable.ui-draggable-disabled.ui-state-disabled(aria-disabled='true')
+    .FriendsToFollow.Module
+        h2.memoTitle
+          | Filters
